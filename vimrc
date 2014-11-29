@@ -23,3 +23,19 @@ set ts=4
 " отображение выполн¤емой команды
 set showcmd 
 " перенос по словам, а не по буквам
+set linebreak
+set dy=lastline
+set langmap=АA,БB,ВW,ГG,ДD,ЕE,Ё&,ЖV,ЗZ,ИI,ЙJ,КK,ЛL,МM,НN,ОO,ПP,РR,СS,ТT,УU,ФF,ХH,ЦC,Ч+,Ш{,Щ},Ъ$,ЫY,ЬX,Э\|,Ю~,ЯQ,аa,бb,вw,гg,дd,еe,ё^,жv,зz,иi,йj,кk,лl,мm,нn,оo,пp,рr,сs,тt,уu,фf,хh,цc,ч=,ш[,щ],ъ#,ыy,ьx,э\\\\,ю`,яq
+"цветовая схема
+colorscheme jellybeans
+" установить шрифт
+set guifont=lucida_console:h15:cRUSSIAN
+"подсветка синтаксиса 
+syntax on
+"номер строк
+set nu
+set backspace=2
+"remove toolbar
+set guioptions-=T 
+set lines=30 columns=50
+"window size
